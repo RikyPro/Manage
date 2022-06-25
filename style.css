@@ -10,6 +10,8 @@ html {
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+/* Header */
+
 header {
     background-color: aqua;
     display: flex;
@@ -19,32 +21,40 @@ header {
     align-items: center;
 }
 
+/* Header - Logo*/
+
+header div img {
+    max-width: 120px;
+    max-height: 23px;
+}
+
+/* Header - Nav*/
+
 header nav ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style: none;
 }
 
 header nav ul li {
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 10px;
+    font-size: 13px;
 }
 
-header nav img {
-    max-width: 120px;
-    max-height: 23px;
-}
-
-header nav ul {
-    display: flex;
-    flex-direction: row;
-}
+/* Header - Button*/
 
 header button {
     background-color: #F3603B;
-    border-radius: 50%;
+    border-radius: 50px;
+    border: none;
     color: #ffffff;
     font-size: 13px;
     font-weight: 500;
+    padding: 10px 25px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
+
+/* Main - First Section*/
+
