@@ -6,26 +6,25 @@
 }
 
 html {
-    font-size: 16px;
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
 }
 
 /* Header */
 
 header {
-    background-color: aqua;
+    align-items: center;
     display: flex;
     flex-direction: row;
+    height: 150px;
     justify-content: space-around;
-    height: 65px;
-    align-items: center;
 }
 
 /* Header - Logo*/
 
 header div img {
-    max-width: 120px;
     max-height: 23px;
+    max-width: 120px;
 }
 
 /* Header - Nav*/
@@ -37,24 +36,85 @@ header nav ul{
 }
 
 header nav ul li {
+    color: #242E52;
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
     font-size: 13px;
+    justify-content: space-around;
+    padding: 10px; 
 }
 
 /* Header - Button*/
 
 header button {
     background-color: #F3603B;
-    border-radius: 50px;
     border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     color: #ffffff;
     font-size: 13px;
     font-weight: 500;
+    max-width: 134px;
     padding: 10px 25px;
-    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 
-/* Main - First Section*/
+/* Main - First box*/
+    /* Main - First box - First section*/
+.box-section-1 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 100px;
+    max-width: 570px;
+    padding-top: 140px;
+}
+
+.first-section h1 {
+    display: flex;
+    color: #232C50;
+    font-size: 58px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: left;
+}
+
+.first-section p {
+    display: flex;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 350px;
+    padding: 28px 0;
+}
+
+.first-section button {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 134px;
+    padding: 10px 25px;
+}
+
+    /* Main - First box - First section*/
+
+.second-section img {
+    display: flex;
+    position: absolute;
+    max-height: 580px;
+    max-width: 525px;
+    right: 100px;
+    top: 220px;
+}
+
+/* Main - Second box*/
+    /* Main - Second box - First section*/
+
 
