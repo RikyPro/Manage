@@ -6,14 +6,17 @@
 }
 
 html {
+    background-color: #E5E5E5;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
+
 }
 
 /* Header */
 
 header {
     align-items: center;
+    background-color: #E5E5E5;
     display: flex;
     flex-direction: row;
     height: 150px;
@@ -61,7 +64,6 @@ header button {
     /* First section*/
 
 .box-section-1 {
-    background-color: aqua;
     display: flex;
     flex-direction: row;
 }
@@ -122,7 +124,6 @@ header button {
 
 .box-section-2 {
     display: flex;
-    background-color: grey;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -158,8 +159,8 @@ header button {
 .fourth-section div {
     display: flex;
     flex-direction: row;
+    padding-right: 100px; 
     padding-top: 50px;
-    padding-right: 100px;
 }
 
 .fourth-section div button {
@@ -210,9 +211,9 @@ header button {
     color: #242E53;
     font-weight: 700;
     font-size: 39px;
-    text-align: center;
     padding-top: 130px;
     padding-bottom: 74px;
+    text-align: center;
 }
 
 .fifth-section {
@@ -229,20 +230,20 @@ header button {
 }
 
 .fifth-section div img {
+    align-self: center;
     display: flex;
     flex-direction: column;
-    align-self: center;
     max-height: 70px;
     max-width: 70px;
 }
 
 .fifth-section div h4 {
+    align-self: center;
     display: flex;
     flex-direction: column;
-    align-self: center;
-    text-align: center;
-    padding-top: 21px;
     padding-bottom: 21px;
+    padding-top: 21px;
+    text-align: center;
     width: 100px;
 }
 
@@ -257,6 +258,7 @@ header button {
 }
 
 .box-section-3 button {
+    align-self: center;
     background-color: #F3603B;
     border: none;
     border-radius: 50px;
@@ -264,18 +266,17 @@ header button {
     color: #ffffff;
     font-size: 13px;
     font-weight: 500;
+    margin: 80px 0;
     max-width: 134px;
     padding: 10px 25px;
-    align-self: center;
-    margin: 80px 0;
 }
 
 /* Main - Box 4*/ 
 
 .box-section-4 {
+    background-color: #F3613C;
     display: flex;
     flex-direction: row;
-    background-color: #F3613C;
     height: 224px;
 }
 
@@ -285,30 +286,113 @@ header button {
     justify-content: center;
     font-size: 40px;
     font-weight: 700;
-    width: 610px;
-    padding-top: 64px;
     padding-left: 164px;
+    padding-top: 64px;
+    width: 610px;
 }
 
 .box-section-4 button {
+    align-self: center;
     background-color: #ffffff;
     border: none;
     border-radius: 50px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     color: #F3603B;
+    display: flex;
     font-size: 13px;
     font-weight: 500;
     max-width: 134px;
     padding: 10px 25px;
-    align-self: center;
-    display: flex;
     position: absolute;
-    right: 164px;
+    right: 140px;
 }
 
 /* Footer*/ 
 
 footer {
     background-color: #1E1E26;
-    
+    display: flex;
+    flex-direction: row;
+    padding: 53px 0 0 170px;
+}
+
+    /* Img*/
+
+.box-footer-img img {
+    display: flex;
+    height: 26px;
+    margin-top: 15px;
+    width: 145px;
+}
+
+    /* Icon*/
+
+.box-footer .box-footer-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 67px;
+    padding-top: 67px;
+    width: 154px;
+}
+
+    /* List*/
+
+.box-list {
+    display: flex;
+    height: 247px;
+    justify-content: space-between;
+    margin: 0px 100px 0 110px;
+    width: 360px;
+}
+
+.box-list .list-1 {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: space-between;
+    height: 130px;
+    list-style: none;
+}
+
+.box-list .list-2 {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    height: 95px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+    /* Input*/
+
+.box-input input {
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    padding: 10px;
+    width: 201px;
+}
+
+.box-input button {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    height: 43px;
+    justify-content: center;
+    margin-left: 9px;
+    max-width: 63px;
+    padding: 10px 25px; 
+    text-align: center;
+}
+
+.box-input p {
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 74px 0 0 55px;
 }
