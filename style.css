@@ -58,7 +58,7 @@ header button {
 }
 
 /* Main - First box*/
-    /* Main - First box - First section*/
+    /* First section*/
 .box-section-1 {
     background-color: aqua;
     display: flex;
@@ -72,6 +72,7 @@ header button {
     margin-left: 100px;
     max-width: 570px;
     padding-top: 140px;
+    padding-bottom: 50px;
 }
 
 .first-section h1 {
@@ -103,18 +104,103 @@ header button {
     padding: 10px 25px;
 }
 
-    /* Main - First box - First section*/
+/* Main - First box*/
+    /*Second section*/
 
 .second-section img {
     display: flex;
-    position: absolute;
     max-height: 580px;
     max-width: 525px;
+    position: absolute;
     right: 100px;
     top: 220px;
 }
 
 /* Main - Second box*/
-    /* Main - Second box - First section*/
+    /*Third section*/
+
+.box-section-2 {
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 0 100px;
+    max-width: 500px;
+}
+
+.third-section h2 {
+    color: #232851;
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.third-section p {
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 337px;
+    padding-top: 36px;
+    text-align: justify;
+}
+
+/* Main - Second box*/ 
+    /*Fourth section*/
+
+.fourth-section article {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+.fourth-section article button {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+    font-weight: 700;
+    height: 43px;
+    justify-content: center;
+    margin-right: 23px;
+    max-width: 63px;
+    padding: 10px 25px; 
+}
+
+.fourth-section .text-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.fourth-section article h3 {
+    color: #323851;
+    font-weight: 700;
+}
+
+.fourth-section article p {
+    color: #B3B2B7;
+    display: flex;
+    flex-direction: column;
+    line-height: 26px;
+    max-width: 458px;
+    padding-top: 26px;
+    text-align: left;
+}
+
+/* Main - Third box*/ 
+    /*Fifth section*/
 
 
+
+/* Main - Third box*/ 
+    /*Sixth section*/
