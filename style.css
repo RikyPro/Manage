@@ -57,8 +57,9 @@ header button {
     padding: 10px 25px;
 }
 
-/* Main - First box*/
+/* Main - Box 1*/
     /* First section*/
+
 .box-section-1 {
     background-color: aqua;
     display: flex;
@@ -104,7 +105,7 @@ header button {
     padding: 10px 25px;
 }
 
-/* Main - First box*/
+/* Main - Box 1*/
     /*Second section*/
 
 .second-section img {
@@ -116,7 +117,7 @@ header button {
     top: 220px;
 }
 
-/* Main - Second box*/
+/* Main - Box 2*/
     /*Third section*/
 
 .box-section-2 {
@@ -151,17 +152,17 @@ header button {
     text-align: justify;
 }
 
-/* Main - Second box*/ 
+/* Main - Box 2*/ 
     /*Fourth section*/
 
-.fourth-section article {
+.fourth-section div {
     display: flex;
     flex-direction: row;
     padding-top: 50px;
     padding-right: 100px;
 }
 
-.fourth-section article button {
+.fourth-section div button {
     background-color: #F3603B;
     border: none;
     border-radius: 30px;
@@ -182,12 +183,12 @@ header button {
     padding-top: 10px;
 }
 
-.fourth-section article h3 {
+.fourth-section div h3 {
     color: #323851;
     font-weight: 700;
 }
 
-.fourth-section article p {
+.fourth-section div p {
     color: #B3B2B7;
     display: flex;
     flex-direction: column;
@@ -197,10 +198,117 @@ header button {
     text-align: left;
 }
 
-/* Main - Third box*/ 
+/* Main - Box 3*/ 
     /*Fifth section*/
 
+.box-section-3 {
+    display: flex;
+    flex-direction: column;
+}
 
+.box-section-3 h2 {
+    color: #242E53;
+    font-weight: 700;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 74px;
+}
 
-/* Main - Third box*/ 
-    /*Sixth section*/
+.fifth-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.fifth-section div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 9px;
+}
+
+.fifth-section div img {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.fifth-section div h4 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    width: 100px;
+}
+
+.fifth-section div p {
+    color: #B9B9C1;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box-section-3 button {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 134px;
+    padding: 10px 25px;
+    align-self: center;
+    margin: 80px 0;
+}
+
+/* Main - Box 4*/ 
+
+.box-section-4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3613C;
+    height: 224px;
+}
+
+.box-section-4 h2 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    width: 610px;
+    padding-top: 64px;
+    padding-left: 164px;
+}
+
+.box-section-4 button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #F3603B;
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 134px;
+    padding: 10px 25px;
+    align-self: center;
+    display: flex;
+    position: absolute;
+    right: 164px;
+}
+
+/* Footer*/ 
+
+footer {
+    background-color: #1E1E26;
+    
+}
