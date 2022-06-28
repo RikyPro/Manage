@@ -82,7 +82,7 @@ header button {
     flex-direction: column;
     text-align: justify;
     max-width: 50rem;
-    padding-top: 14rem;
+    padding-top: 7rem;
     padding-bottom: 5.0rem;
 }
     
@@ -172,9 +172,55 @@ header button {
 /* Main - Box 2*/
     /*Fourth section*/
 
-.fourth-section div {
+.fourth-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: -100px;
+    width: 500px;
+}
+
+.fourth-section p {
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+.fourth-section span {
+    margin-left: -100px;
+}
+
+.fourth-section p:first-of-type {
+    color: var(--azul-oscuro);
     display: flex;
     align-items: center;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+    
+    
+}
+
+.fourth-section div span {
+    background-color: var(--rojo-brillante);
+    border: none;
+    border-radius: 30px;
+    color: var(--rojo-muy-pálido);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 43px;
+    justify-content: center;
+    margin-right: 23px;
+    max-width: 63px;
+    padding: 10px 25px;
+}
+
+
+.fourth-section p:nth-child(2) {
+    color: var(--azul-grisáceo-oscuro);
+    padding: 0 15px;
+}
+
+/* .fourth-section div {
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -212,7 +258,7 @@ header button {
     max-width: 458px;
     padding-top: 26px;
     text-align: left;
-}
+} */
 
 /* Main - Box 3*/
     /*Fifth section*/
@@ -423,8 +469,8 @@ footer {
     .first-section {
         display: flex;
         align-items: center;
-        margin-bottom: 10rem;
-        margin-top: 350px;
+        margin-bottom: 0rem;
+        margin-top: 40rem;
         margin-left: -50px;
     }
     .first-section h1 {
@@ -450,10 +496,10 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content:center;
+        margin-top: 8rem;
     }
 
     .third-section {
-        padding: 0;
         display: flex;
         align-items: center;
     }
@@ -463,6 +509,30 @@ footer {
     .third-section p{
         text-align:center;
     }
+
+    /* .fourth-section {
+        
+    }
+    .fourth-section .text-container {
+        margin: 0;
+    }
+
+    .fourth-section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .fourth-section div button {
+        display: flex;
+    }
+
+    .fourth-section .text-container p {
+        
+        
+    } */
+
     /* .box-section-3{
         display: flex;
         flex-wrap: wrap;
