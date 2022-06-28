@@ -75,7 +75,7 @@ header button {
     justify-content: space-around;
     padding: 0 6rem 0 7rem;
 }
-    
+
 .first-section {
     display: flex;
     width: 100%;
@@ -85,7 +85,7 @@ header button {
     padding-top: 7rem;
     padding-bottom: 5.0rem;
 }
-    
+
 .first-section h1 {
     display: flex;
     color: var(--azul-oscuro);
@@ -94,7 +94,7 @@ header button {
     justify-content: center;
     text-align: left;
 }
-    
+
 .first-section p {
     display: flex;
     font-weight: 50rem;
@@ -115,15 +115,15 @@ header button {
     padding: 1rem 2.5rem;
     margin-left: 1rem;
 }
-    
+
 /* Main - Box 1*/
     /* /Second section/ */
-    
+
 .second-section {
     display: flex;
     justify-content:center;
 }
-    
+
 .second-section img {
     display: flex;
     top: 22rem;
@@ -175,8 +175,7 @@ header button {
 .fourth-section {
     display: flex;
     flex-direction: column;
-    padding-left: -100px;
-    width: 500px;
+    width: 550px;
 }
 
 .fourth-section p {
@@ -184,8 +183,18 @@ header button {
     font-size: 1.6rem;
 }
 
-.fourth-section span {
-    margin-left: -100px;
+.fourth-section div span {
+    align-items: center;
+    background-color: var(--rojo-brillante);
+    border-radius: 30px;
+    color: var(--rojo-muy-pálido);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    height: 43px;
+    justify-content: center;
+    width: 63px;
+    padding: 10px 25px;
 }
 
 .fourth-section p:first-of-type {
@@ -194,74 +203,18 @@ header button {
     align-items: center;
     font-weight: 700;
     margin: 0 0 15px 0;
-    
-    
+    margin-top: -4rem;
 }
-
-.fourth-section div span {
-    background-color: var(--rojo-brillante);
-    border: none;
-    border-radius: 30px;
-    color: var(--rojo-muy-pálido);
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    height: 43px;
-    justify-content: center;
-    margin-right: 23px;
-    max-width: 63px;
-    padding: 10px 25px;
-}
-
 
 .fourth-section p:nth-child(2) {
-    color: var(--azul-grisáceo-oscuro);
-    padding: 0 15px;
-}
-
-/* .fourth-section div {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.fourth-section div button {
-    background-color: var(--rojo-brillante);
-    border: none;
-    border-radius: 30px;
-    color: var(--rojo-muy-pálido);
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    height: 43px;
-    justify-content: center;
-    margin-right: 23px;
-    max-width: 63px;
-    padding: 10px 25px;
-}
-
-.fourth-section .text-container {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-}
-
-.fourth-section div h3 {
     color: var(--azul-oscuro);
-    font-weight: 700;
+    padding-left: 100px;
 }
 
-.fourth-section div p {
+.fourth-section p:nth-child(3) {
     color: var(--azul-grisáceo-oscuro);
-    display: flex;
-    flex-direction: column;
-    line-height: 26px;
-    max-width: 458px;
-    padding-top: 26px;
-    text-align: left;
-} */
-
-/* Main - Box 3*/
-    /*Fifth section*/
+    padding-left: 100px;
+}
 
 .box-section-3 {
     display: flex;
@@ -459,8 +412,7 @@ footer {
     padding: 74px 0 0 55px;
 }
 
-
-@media (max-width:1000px) {
+@media (max-width:1080px) {
     .box-section-1{
         display: flex;
         flex-wrap: wrap;
@@ -502,36 +454,40 @@ footer {
     .third-section {
         display: flex;
         align-items: center;
+        padding-bottom: 80px;
     }
     .third-section h2{
         text-align:center;
+        width: 350px;
     }
     .third-section p{
         text-align:center;
     }
 
-    /* .fourth-section {
-        
+    .fourth-section {
+
     }
-    .fourth-section .text-container {
-        margin: 0;
+    .fourth-section div span {
+        margin-left: 100px;
+        position: relative;
     }
 
-    .fourth-section div {
+    .fourth-section p:first-of-type {
+        background-color: var(--rojo-muy-pálido);
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 30px;
+        margin-left: 100px;
+        text-align: left;
+        width: 400px;
+        
     }
 
-    .fourth-section div button {
-        display: flex;
+    .fourth-section p:nth-child(3) {
+        padding-bottom: 50px;
+        width: 500px;
     }
+} 
 
-    .fourth-section .text-container p {
-        
-        
-    } */
+
 
     /* .box-section-3{
         display: flex;
@@ -544,4 +500,3 @@ footer {
         justify-content:cen ter;
         text-align: center;
     } */
-}
