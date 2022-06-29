@@ -14,12 +14,13 @@
 }
 
 html {
-    background-color: var(--variante-gris-claro);
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 62.5%;
 }
 
-/* Header */
+/* ------------------------- */
+/*|          Header         |*/
+/* ------------------------- */
 
 header {
     align-items: center;
@@ -29,14 +30,20 @@ header {
     justify-content: space-around;
 }
 
-/* Header - Logo*/
+/* ------------------------- */
+/*|          Header         |*/
+/*|           Logo          |*/
+/* ------------------------- */
 
 header div img {
     max-height: 23px;
     max-width: 120px;
 }
 
-/* Header - Nav*/
+/* ------------------------- */
+/*|          Header         |*/
+/*|           Nav           |*/
+/* ------------------------- */
 
 header nav ul{
     display: flex;
@@ -52,7 +59,10 @@ header nav ul li {
     padding: 10px;
 }
 
-/* Header - Button*/
+/* ------------------------- */
+/*|          Header         |*/
+/*|          Button         |*/
+/* ------------------------- */
 
 header button {
     background-color: var(--rojo-brillante);
@@ -66,8 +76,10 @@ header button {
     padding: 10px 25px;
 }
 
-/* Main - Box 1*/
-    /* First section*/
+/* ------------------------- */
+/*|     Main - Box 1        |*/
+/*|     First section       |*/
+/* ------------------------- */
 
 .box-section-1 {
     display: flex;
@@ -116,8 +128,10 @@ header button {
     margin-left: 1rem;
 }
 
-/* Main - Box 1*/
-    /* /Second section/ */
+/* ------------------------- */
+/*|     Main - Box 1        |*/
+/*|    Second section       |*/
+/* ------------------------- */
 
 .second-section {
     display: flex;
@@ -132,8 +146,10 @@ header button {
     max-height: 52.5rem;
 }
 
-/* Main - Box 2*/
-    /*Third section*/
+/* ------------------------- */
+/*|     Main - Box 1        |*/
+/*|     Third section       |*/
+/* ------------------------- */
 
 .box-section-2 {
     display: flex;
@@ -166,11 +182,12 @@ header button {
     max-width: 337px;
     padding-top: 36px;
     text-align: justify;
-
 }
 
-/* Main - Box 2*/
-    /*Fourth section*/
+/* ------------------------- */
+/*|     Main - Box 1        |*/
+/*|    Fourth section       |*/
+/* ------------------------- */
 
 .fourth-section {
     display: flex;
@@ -234,13 +251,13 @@ header button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0 30px;
 }
 
 .fifth-section div {
+    background-color: var(--variante-gris-claro);
     display: flex;
     flex-direction: column;
-    padding: 0 9px;
+    margin: 0 10px;
 }
 
 .fifth-section div img {
@@ -255,6 +272,8 @@ header button {
     align-self: center;
     color: var(--azul-oscuro);
     display: flex;
+    font-size: 1.6rem;
+    font-weight: 700;
     flex-direction: column;
     padding-bottom: 21px;
     padding-top: 21px;
@@ -266,6 +285,8 @@ header button {
     color: var(--azul-grisáceo-oscuro);
     display: flex;
     flex-direction: column;
+    font-weight: 600;
+    font-size: 1.6rem;
     font-weight: 500;
     justify-content: center;
     line-height: 25px;
@@ -286,7 +307,9 @@ header button {
     padding: 10px 25px;
 }
 
-/* Main - Box 4*/
+/* ------------------------- */
+/*|     Main - Box 4        |*/
+/* ------------------------- */
 
 .box-section-4 {
     background-color: var(--rojo-brillante);
@@ -318,11 +341,12 @@ header button {
     font-weight: 500;
     max-width: 134px;
     padding: 10px 25px;
-    position: absolute;
-    right: 140px;
+    margin-left: 300px;
 }
 
-/* Footer*/
+/* ------------------------- */
+/*|         Footer          |*/
+/* ------------------------- */
 
 footer {
     background-color: var(--azul-muy-oscuro);
@@ -331,7 +355,10 @@ footer {
     padding: 53px 0 0 170px;
 }
 
-    /* Img*/
+/* ------------------------- */
+/*|        Footer           |*/
+/*|         Img             |*/
+/* ------------------------- */
 
 .box-footer-img img {
     display: flex;
@@ -340,7 +367,10 @@ footer {
     width: 145px;
 }
 
-    /* Icon*/
+/* ------------------------- */
+/*|        Footer           |*/
+/*|         Icon            |*/
+/* ------------------------- */
 
 .box-footer .box-footer-icon {
     display: flex;
@@ -350,7 +380,10 @@ footer {
     width: 154px;
 }
 
-    /* List*/
+/* ------------------------- */
+/*|        Footer           |*/
+/*|         List            |*/
+/* ------------------------- */
 
 .box-list {
     display: flex;
@@ -380,7 +413,11 @@ footer {
     list-style: none;
 }
 
-    /* Input*/
+/* ------------------------- */
+/*|        Footer           |*/
+/*|        Input            |*/
+/* ------------------------- */
+
 
 .box-input input {
     border: none;
@@ -411,6 +448,11 @@ footer {
     font-weight: 500;
     padding: 74px 0 0 55px;
 }
+
+/* ------------------------- */
+/*|       Mediaqueries      |*/
+/* ------------------------- */
+
 
 @media (max-width:1080px) {
     .box-section-1{
@@ -464,9 +506,6 @@ footer {
         text-align:center;
     }
 
-    .fourth-section {
-
-    }
     .fourth-section div span {
         margin-left: 100px;
         position: relative;
@@ -485,18 +524,49 @@ footer {
         padding-bottom: 50px;
         width: 500px;
     }
-} 
 
+    .box-section-3 .cards {
+        display: hidden;
+        visibility: hidden;
+    }
 
-
-    /* .box-section-3{
+    .box-section-3 .carrusel {
         display: flex;
-        flex-wrap: wrap;
-        justify-content:center;
-    } */
-    /* .box-section-4{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box-section-3 .carrusel .point {
+        border: 2px solid var(--rojo-brillante);
+        border-radius: 50%;
+        height: 10px;
+        margin: 30px 3px 60px 3px;
+        width: 10px;
+    }
+
+    .box-section-3 button {
+        margin-top: 0px;
+    }
+
+    .box-section-4 {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content:cen ter;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-section-4 h2 {
+        max-width: 500px;
         text-align: center;
-    } */
+        padding: 0;
+        margin-bottom: 20px;
+        
+    }
+    .box-section-4 button {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+} 
